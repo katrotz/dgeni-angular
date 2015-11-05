@@ -1,0 +1,29 @@
+{
+  "name": "dgeni-angular",
+  "version": "0.0.1",
+  "description": "Sample angularJS application using dgeni to handle the documents generation",
+  "main": "dist/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "./node_modules/.bin/dgeni ./docs/config/packages/angularJS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrotz/dgeni-angular.git"
+  },
+  "keywords": [
+    "Dgeni",
+    "AngularJS"
+  ],
+  "author": "katrotz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katrotz/dgeni-angular/issues"
+  },
+  "homepage": "https://github.com/katrotz/dgeni-angular#readme",
+  "devDependencies": {
+    "canonical-path": "0.0.2",
+    "dgeni": "^0.4.1",
+    "dgeni-packages": "^0.11.0"
+  }
+}
