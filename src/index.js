@@ -2,26 +2,17 @@
   'use strict';
 
   /**
-   * @name dgeni-angular
-   * @description
-   * ### dgeni-angular module definition
-   * @requires []
    * @ngdoc module
-   * @area api
+   * @name wtApp
+   * @module wtApp
+   * @description
+   * #wtApp
+   * A basic angular module definition for documentation testing purposes
    */
-  angular.module('dgeni-angular', [])
-
-    /**
-     * @name config
-     * @requires $logProvider
-     */
+  angular.module('wtApp', [])
     .config(['$logProvider', function($logProvider) {
       $logProvider.debugEnabled(false);
     }])
-
-    /**
-     * @name run
-     */
     .run(['$rootScope', function($rootScope) {
       $rootScope.appLoaded = true;
     }]);

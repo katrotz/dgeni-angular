@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "description": "Sample angularJS application using dgeni to handle the documents generation",
   "main": "dist/",
+  "branchPattern": "0.0.*",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "./node_modules/.bin/dgeni ./docs/config/packages/angularJS.js"
+    "docs:serve": "node docs-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katrotz/dgeni-angular.git"
+    "url": "https://github.com/scm/q3v2/wt-analytics-frontend.git"
   },
   "keywords": [
     "Dgeni",
@@ -24,6 +25,55 @@
   "devDependencies": {
     "canonical-path": "0.0.2",
     "dgeni": "^0.4.1",
-    "dgeni-packages": "^0.11.0"
+    "dgeni-packages": "^0.11.0",
+    "grunt": "",
+    "grunt-angular-templates": "",
+    "grunt-autoprefixer": "3.0.0",
+    "grunt-bowerversion": "git+ssh://git@stash.webtrekk.com:7999/grmd/grunt-contrib-bowerversion.git",
+    "grunt-concurrent": "",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-compass": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-connect": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-cssmin": "",
+    "grunt-contrib-htmlmin": "",
+    "grunt-contrib-imagemin": "",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "grunt-debian-package": "^0.1.11",
+    "grunt-karma": "0.6.0",
+    "grunt-ngmin": "",
+    "grunt-rcukes": "",
+    "grunt-recess": "",
+    "grunt-replace-json-glob": "",
+    "grunt-rev": "",
+    "grunt-shell": "",
+    "grunt-sonar-runner": "2.3.1",
+    "grunt-usemin": "",
+    "karma": "0.9.4",
+    "karma-chrome-launcher": "",
+    "karma-coffee-preprocessor": "0.1.3",
+    "karma-coverage": "",
+    "karma-firefox-launcher": "",
+    "karma-generic-preprocessor": "^1.1.0",
+    "karma-html2js-preprocessor": "",
+    "karma-jasmine": "0.1.3",
+    "karma-ng-html2js-preprocessor": "",
+    "karma-ng-scenario": "",
+    "karma-phantomjs-launcher": "",
+    "karma-requirejs": "",
+    "karma-script-launcher": "",
+    "karma-xunit-jenkins-sonar-reporter": "git+ssh://git@stash.webtrekk.com:7999/grmd/karma-xunit-jenkins-sonar-reporter.git",
+    "load-grunt-tasks": "",
+    "lodash": "^3.10.1",
+    "marked": "^0.3.5",
+    "node-html-encoder": "0.0.2",
+    "phantomjs-polyfill": "",
+    "semver": "^5.0.3",
+    "shelljs": "^0.5.3",
+    "stringmap": "^0.2.2",
+    "time-grunt": ""
   }
 }
